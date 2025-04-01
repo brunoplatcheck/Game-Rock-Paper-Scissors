@@ -1,0 +1,88 @@
+/* Global Styles */
+body {
+  background-color: #ffdc40;
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Sans MS', sans-serif;
+  color: #000;
+  position: relative;
+}
+
+/* Logo Styles */
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  max-width: 150px;
+  width: auto;
+}
+
+/* Container with the background image */
+.container {
+  background: url('https://i.postimg.cc/TY28jTqJ/bg4-ia.jpg') no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Content div for text and button */
+.content {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 40px 60px;
+  border-radius: 8px;
+  border: 5px solid #ff1b7b;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Title styling */
+.content h2 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #ff1b7b;
+  margin-bottom: 20px;
+}
+
+/* Button Styles */
+button {
+  background-color: #ff1b7b;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.5em;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #f39c12;
+  transform: scale(1.1);
+}
+
+/* Button Play Again */
+#playAgainBtn {
+  background-color: #3498db;
+  margin-top: 10px;
+}
+
+#playAgainBtn:hover {
+  background-color: #2980b9;
+}
+
+/* Scoreboard styling */
+#scoreboard p {
+  font-size: 1.2em;
+  color: #ff1b7b;
+  font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #ff1b7b;
+  color: white;
+  font-size: 1.2em;
+}
